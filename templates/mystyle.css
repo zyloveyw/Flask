@@ -1,0 +1,7 @@
+<title>hello</title>
+
+{% if name %}
+    <h1 style="color:#00FF00">hello {{name}}!</h1>
+{% else %}
+    <h1 style="color:#00FF00">helo world</h2>
+{% endif %}
